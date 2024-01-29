@@ -24,20 +24,15 @@ function divideThem(a, b){
 
 // Arrow Function
 
+(a, b) => a + b
+ console.log(addThem(myOne, myTwo));
 
-const addThem = (a, b) =>{
-    return a + b
-} console.log(addThem(myOne, myTwo));
+(a, b) => a - b
+ console.log(subtractThem(myOne, myTwo));
 
-const subtractThem (a, b) =>{
-    return a - b
-} console.log(subtractThem(myOne, myTwo));
+(a, b) => a * b
+ console.log(multiplyThem(myOne, myTwo));
 
-const multiplyThem(a, b) =>{
-    return a * b
-} console.log(multiplyThem(myOne, myTwo));
-
-const divideThem (a, b) => {
-    return a / b
-} console.log(divideThem(myOne, myTwo));
+(a, b) => a / b
+ console.log(divideThem(myOne, myTwo));
 
